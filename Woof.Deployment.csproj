@@ -43,5 +43,11 @@
     <Compile Include="DeploymentEx\Uac.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Woof.Deployment.nuspec" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>nuget pack $(ProjectPath) -Prop Configuration=Release</PostBuildEvent>
+  </PropertyGroup>
 </Project>
