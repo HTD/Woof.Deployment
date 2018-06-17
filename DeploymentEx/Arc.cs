@@ -143,7 +143,7 @@ namespace Woof.DeploymentEx {
         /// <summary>
         /// Creates a file containing archieved file system of source files.
         /// </summary>
-        /// <param name="targetPath">Path to the target file.</param>
+        /// <param name="targetStream">Stream to write compressed files.</param>
         /// <param name="files">Source files (paths).</param>
         new public void WriteArchive(Stream targetStream, params string[] files) {
             foreach (var file in files) AddFile(targetStream, file);
@@ -189,6 +189,9 @@ namespace Woof.DeploymentEx {
     /// </summary>
     public interface IArchiver {
 
+        /// <summary>
+        /// Gets or sets the base directory for the archiver to operate.
+        /// </summary>
         string BaseDir { get; set; }
 
         /// <summary>
