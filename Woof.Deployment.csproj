@@ -40,7 +40,9 @@
   <ItemGroup>
     <Compile Include="DeploymentEx\Arc.cs" />
     <Compile Include="DeploymentEx\Installer.cs" />
+    <Compile Include="DeploymentEx\Target.cs" />
     <Compile Include="DeploymentEx\Uac.cs" />
+    <Compile Include="DeploymentEx\LinkTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

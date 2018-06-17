@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>$title$</title>
     <authors>Adam Łyskawa, Kamil Marzec</authors>
     <owners>Adam Łyskawa, Kamil Marzec</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/HTD/Woof.Deployment</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Updated metadata.</releaseNotes>
+    <releaseNotes>Added Target and LinkTool classes.</releaseNotes>
     <copyright>(c)2018 by CodeDog Ltd.</copyright>
     <tags>code codedog dotnet system deployment install setup</tags>
   </metadata>
